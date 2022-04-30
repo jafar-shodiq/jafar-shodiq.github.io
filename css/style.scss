@@ -1,0 +1,36 @@
+body {
+    width: 100%;
+    margin: 0;
+}
+
+.parallax {
+    width: 100%;
+    height: 150vh;
+    background-image: url('../images/img1.jpg');
+    background-size: cover;
+    position: relative;
+}
+
+.content-div {
+    width: 100%;
+    height: 200vh;
+}
+
+.headline {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 350px;
+    color: blue;
+    position: fixed;
+    top: 20vh;
+    text-align: center;
+
+}
+
+.mask {
+    mask: url('../images/mask.svg');
+    mask-size: cover;
+    -webkit-mask: url('../images/mask.svg');
+    -webkit-mask-size: cover;
+    width: 100%;
+    height: 100%;
+}
