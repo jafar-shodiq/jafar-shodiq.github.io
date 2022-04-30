@@ -27,10 +27,14 @@ body {
 }
 
 .mask {
-    mask: url('../images/mask.svg');
+    mask-image: url('../images/mask.svg');
     mask-size: cover;
-    -webkit-mask: url('../images/mask.svg');
+    -webkit-mask-image: url('../images/mask.svg');
     -webkit-mask-size: cover;
+    -moz-mask-image: url('../images/mask.svg');
+    -moz-mask-size: cover;
+    -o-mask-image: url('../images/mask.svg');
+    -o-mask-size: cover;
     width: 100%;
     height: 100%;
 }
