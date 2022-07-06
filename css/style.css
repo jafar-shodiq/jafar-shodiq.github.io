@@ -15,13 +15,9 @@
     
     --clr-light: #fff;
     --clr-dark: #303030;
-    /* --clr-accent: #16e0bd; */
     --clr-accent: #f4a759;
+    /* 4th color (green blue-ish): #007560 */
 
-    /* modern colors of japan page 068 */
-    /* --clr-light: #fff;
-    --clr-dark: #424f56;
-    --clr-accent: #6cb2d3; */
     
     --fs-h1: 3rem;
     --fs-h2: 2.25rem;
