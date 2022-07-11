@@ -213,22 +213,24 @@ header {
 
 @media (min-width: 600px) {
     .intro {
-        display: grid;
-        width: min-content;
+        display: block;
+        text-align: center;
+        /* width: min-content; */
         margin: 0 auto;
-        grid-column-gap: 1em;
-        grid-template-areas: 
+        /* margin: 100px; */
+        /* grid-column-gap: 1em; */
+        /* grid-template-areas: 
             "img title"
-            "img subtitle";
-        grid-template-columns: min-content max-content;
+            "img subtitle"; */
+        /* grid-template-columns: min-content max-content; */
     }
     
-    .intro__img {
+    /* .intro__img {
         grid-area: img;
         min-width: 250px;
         position: relative;
         z-index: 2;
-    }    
+    }     */
     
     .section__subtitle--intro {
         align-self: start;
@@ -237,7 +239,8 @@ header {
         text-align: right;
         position: relative;
         left: -1.5em;
-        width: calc(100% + 1.5em);
+        /* width: calc(100% + 1.5em); */
+        width: calc(60% + 1.5em); 
     }
 }
 
@@ -331,6 +334,14 @@ section {
 .medium-img {
     display: block;
     width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: .5em 0;
+}
+
+.small-img {
+    display: block;
+    width: 25%;
     margin-left: auto;
     margin-right: auto;
     padding: .5em 0;
